@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Portifólio </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--códigos que precisam ter na head para funcionar o broostrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div id ="aplicativos" class="container">
+  <center> <!--alinha tudo ao centro-->
+    <section id="app">
+      <h1>Aplicativos</h1>
+      <h5> Esse app foi criado no laboratorio de aplicativos.</h5>
+      <div class="line"></div>
+      <!--colar os iframes aqui-->
+      <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Od0TRSUxgS2SILnAwLrsvZEgnpmz8eN4sxlnR9rumnQ/embed"></iframe>
+      <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/brXYzWsDgnqiYG0Uu-84F7akFpv1p32MvJSmUKcSRIc/embed"></iframe>
+
+  </section>
+  </center>
+
+<h2> Clique no jogo desejado para comecar! </h2>
+<h5> Esses jogos foram criados no laboratorio de jogos. Clique no jogo para jogar </h5>
+
+<div id="myCarrossel" class="carousel slide" > <!-- a class "carousel slide" ajuda a adicionar uma transição CSS e efeito animado. -->
+  <center> <!--alinha tudo ao centro-->
+    <div class="carousel-inner"> <!--a class "carousel-inner esconde todos os itens dentro do carrossel, exceto o item ativo."-->
+      <div class="item active"> <!--a class "item active" mostrará o item na página-->
+        <a href="https://studio.code.org/projects/gamelab/8xna6BwYC8jbLmzpGx0XToYS9r-gIyOX7oV5SFhaLN8" target="_blank">
+          <img src="thumbnail.png">
+        </a>
+        <p> Esse jogo é um jogo de corrida feito por:Duda Diniz </p>
+      </div>
+
+      <div class="item"> <!--a class "item" especifica que é um item e como não tem "active não será mostrada inicialmente"-->
+        <a href="https://studio.code.org/projects/playlab/SR6ekjR_6AW0s2stkjRkcF2pqBVjSfPugktn3SlSBvY" target="_blank">
+          <img src="tiana.jpg">
+        </a>
+          <p> Esse é mais um jogo que eu fiz com minha princesa da disney favorita  </p>
+        </div>
+    
+    </div>
+
+    <!-- Controle de esquerda e direita -->
+    <a class="left carousel-control" href="#myCarrossel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarrossel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </center>
+  </div>
+</div>
+</body>
+</html>
